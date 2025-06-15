@@ -1,0 +1,28 @@
+/* RealatedProduct.css */
+
+.RealatedProduct {
+    padding: 40px 80px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.RealatedProduct h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.RealatedProduct hr {
+    width: 100px;
+    height: 4px;
+    background-color: #ff4c4c;
+    border: none;
+    margin: 10px auto 30px auto;
+}
+
+.RealatedProduct_tem {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
