@@ -3,7 +3,6 @@ import './Footer.css'
 import footer_logo from '../Assets/logo_big.png'
 import inta from '../Assets/instagram_icon.png'
 import pintester_icon from '../Assets/pintester_icon.png'
-import Whatsapp_icon from '../Assets/Whatsapp_icon.png'
 const Footer = () => {
   return (
     <div className='footer'>
